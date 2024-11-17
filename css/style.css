@@ -151,8 +151,10 @@ button {
 .strength-description {
 }
 .team-section {
+  background-color: rgb(var(--cloud));
 }
 .team-list {
+  background-color: rgb(var(--white));
 }
 .team-member {
 }
