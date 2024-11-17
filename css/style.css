@@ -1,7 +1,7 @@
 :root {
   /* Font Variables */
   --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   /* Font Weights */
   --weight-regular: 400;
@@ -22,24 +22,29 @@ body {
   font-weight: var(--weight-regular);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: rgb(var(--navy-blue));
+  color: rgb(var(--slate));
+  background-color: rgb(var(--white));
 }
 
 h1,
 h2 {
   font-weight: var(--weight-bold);
   text-align: center;
+  text-transform: capitalize;
 }
 
 h2 {
   font-size: 36px;
   line-height: 1.11;
+  color: rgb(var(--navy-blue));
 }
 
 h3 {
   font-size: 20px;
   line-height: 1.2;
   font-weight: var(--weight-medium);
+  color: rgb(var(--navy-blue));
+  text-transform: capitalize;
 }
 
 a {
@@ -50,12 +55,9 @@ li {
   list-style-type: none;
 }
 
-p {
-  color: rgb(var(--slate));
-}
-
 button {
   cursor: pointer;
+  line-height: 1.5;
 }
 
 .page-header {
@@ -100,6 +102,7 @@ button {
 }
 
 .contact-info {
+  font-style: normal;
 }
 .contact-list {
 }
@@ -108,7 +111,9 @@ button {
 .contact-link {
   color: rgb(var(--slate));
 }
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus,
+.contact-link:active {
   color: rgb(var(--ocean));
 }
 
@@ -126,7 +131,9 @@ button {
   color: rgb(var(--white));
   background-color: rgb(var(--iris));
 }
-.cta-button:hover {
+.cta-button:hover,
+.cta-button:focus,
+.cta-button:active {
   background-color: rgb(var(--ocean));
 }
 .strengths-section {
