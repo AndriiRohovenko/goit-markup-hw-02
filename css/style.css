@@ -156,9 +156,9 @@ button {
 .team-section-title {
 }
 .team-list {
-  background-color: rgb(var(--white));
 }
 .team-member {
+  background-color: rgb(var(--white));
 }
 .team-photo {
 }
@@ -174,7 +174,6 @@ button {
 .portfolio-title {
 }
 .portfolio-list {
-  background-color: rgb(var(--white));
 }
 .portfolio-item {
 }
