@@ -24,8 +24,18 @@
 
 body {
   font-family: var(--main-font);
+  font-weight: var(--weight-regular);
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+h1,
+h2 {
+  font-weight: var(--weight-bold);
+}
+
+h3 {
+  font-weight: var(--weight-medium);
 }
 
 a {
@@ -45,7 +55,7 @@ li {
 }
 
 .brand-logo {
-  font-family: var(--logo-font);
+  font-family: var(--secondary-font);
   font-weight: var(--weight-bold);
   font-size: 18px;
   line-height: 1.17;
@@ -93,6 +103,7 @@ li {
   text-align: center;
 }
 .cta-button {
+  font-weight: var(--weight-medium);
 }
 .strengths-section {
 }
