@@ -31,6 +31,7 @@ h2 {
   font-weight: var(--weight-bold);
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -45,6 +46,7 @@ h3 {
   font-weight: var(--weight-medium);
   color: rgb(var(--navy-blue));
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 a {
