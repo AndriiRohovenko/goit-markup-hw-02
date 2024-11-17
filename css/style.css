@@ -2,11 +2,8 @@
   /* Font Variables */
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', serif;
-  --logo-font: 'Raleway', sans-serif;
-  --title-font: 'Raleway', serif;
 
   /* Font Weights */
-  --weight-light: 300;
   --weight-regular: 400;
   --weight-medium: 500;
   --weight-bold: 700;
